@@ -1,4 +1,4 @@
-# QR-Code-Security
+# Anti-Counterfeiting QR Code and Verification Method  
 
 ---
 Step 1: Generation of QR Code
