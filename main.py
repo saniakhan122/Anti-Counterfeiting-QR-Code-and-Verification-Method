@@ -31,14 +31,14 @@ app = Flask(__name__)
 
 
 
-@app.route("/Predict")
+@app.route("/")
 def Predict():
     return render_template('predict.html')
 
 
 
 
-@app.route('/predict', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def display_intensity():
     if request.method == 'POST':
         # Get the file from post request
